@@ -1,0 +1,73 @@
+.overal_titledescriptionbutton
+{
+    width:100%;
+    padding-left: 10px;
+    padding-right:10px;
+    background-color: aliceblue;
+    height: auto;
+    overflow: hidden;
+  
+
+}
+.title_titledescriptionbutton
+{
+    width:100%;
+    display:inline-block;
+    text-align: center !important;
+    font-size: medium;
+    font: 1em sans-serif;
+   
+}
+.description_titledescriptionbutton
+{
+    width:100%;
+   
+    padding-left: 5px;
+    padding-right: 5px;
+  
+
+
+}
+
+
+
+.button_interior_class
+{
+    /* text-align: center; */
+    letter-spacing: 1px;
+    background-color:aquamarine;
+    padding: 8px 15px;
+   
+    border-radius: 15px;
+    border-color: aquamarine;
+    
+
+}
+
+.leftsidebutton
+{
+    width:auto;
+    float: left;
+    text-align: center!important;
+    padding: 10px;
+    margin-left: 10px;
+
+}
+
+
+.rightsidebutton
+{
+     width:auto;
+    float: right; 
+    text-align: center!important;
+    padding: 10px;
+    margin-right: 30px;
+}
+ 
+.centersidebutton
+{
+    width:100%;
+    display:inline-block;
+    text-align: center !important;
+    padding: 10px;
+}

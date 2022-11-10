@@ -1,0 +1,25 @@
+.overall-imagetitledesc
+{
+width:100%;
+
+}
+
+
+
+.leftside
+{
+    width:50%;
+    float: left;
+    text-align: center!important;
+    padding: 10px;
+
+}
+
+
+.rightside
+{
+    width:50%; 
+    float: right; 
+    text-align: center!important;
+    padding: 10px;
+}
