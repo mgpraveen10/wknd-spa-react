@@ -25,3 +25,8 @@ import './titletextdescription/titletextdescription';
 import './imagetitledescription/imagetitledescription';
 import './Multiimage/Multiimage';
 import './TitleDescriptionButton/TitleDescriptionButton'
+import './MySlider/Slider';
+import './ProductDetails/ProductDetails';
+import './MyProduct/MyProduct';
+import './profiletitle/Profiletitlelink';
+import './Footer js/Footer';

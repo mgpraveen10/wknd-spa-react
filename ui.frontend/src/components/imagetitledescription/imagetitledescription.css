@@ -4,22 +4,28 @@ width:100%;
 
 }
 
-
-
 .leftside
 {
     width:50%;
     float: left;
     text-align: center!important;
     padding: 10px;
-
+    font-size: medium;
 }
-
-
 .rightside
 {
     width:50%; 
     float: right; 
     text-align: center!important;
     padding: 10px;
+    font-size: medium;
+}
+@media screen and (max-width:600px) {
+    .leftside{
+        width:100%
+    }
+    .rightside
+    {
+        width:100%
+    }
 }

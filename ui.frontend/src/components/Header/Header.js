@@ -99,8 +99,8 @@ export default class Header extends Component {
         }
 
          return (
-            <header className={this.state.isMenuOpen ? 'Header Header--menuOpen' : 'Header'}>
-                <div className="Header-container">
+            <header  className={this.state.isMenuOpen ? 'Header Header--menuOpen' : 'Header'}>
+                <div  className="Header-container">
                     {this.menuToggle}
                     {this.logo}
                     {this.backButton}
