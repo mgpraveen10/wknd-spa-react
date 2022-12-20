@@ -1,0 +1,89 @@
+.scrolling-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+
+  .card {
+    flex: 0 0 23%;
+    margin-right: 5px;
+  }
+}
+
+.slider-ui-container {
+  background: #f0fff8;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.slider-container {
+  width: 100%;
+  padding: 5px 5px 0 5px;
+  // margin: 0 5px;
+}
+
+.slider-img {
+  // object-fit: cover;
+  background: red;
+  max-height: 200px;
+  min-height: 200px;
+  height: 200px;
+}
+
+.slider-item-title {
+  font-size: small;
+  line-height: normal;
+  margin-top: 10px;
+  color: black;
+}
+
+.scrolling-wrapper > p {
+  text-decoration: none;
+}
+
+// for tablet
+
+@media screen and (max-width: 992px) {
+  .scrolling-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+
+    .card {
+      flex: 0 0 33%;
+      margin-right: 5px;
+    }
+  }
+  .slider-img {
+    max-height: 175px;
+    min-height: 175px;
+    height: 175px;
+  }
+}
+
+// for Phone
+
+@media screen and (max-width: 600px) {
+  .scrolling-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+
+    .card {
+      flex: 0 0 50%;
+      margin-right: 5px;
+    }
+  }
+
+  .slider-img {
+    max-height: 150px;
+    min-height: 150px;
+    height: 150px;
+  }
+}

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Product"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    helpPath="https://www.adobe.com/go/aem_cmp_text_v2"
+    trackingFeature="core-components:text:v2">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Properties"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        granite:class="cq-RichText-FixedColumn-column"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <file
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
+                                                autoStart="{Boolean}false"
+                                                class="cq-droptarget"
+                                                fileNameParameter="./fileName"
+                                                fileReferenceParameter="./fileReference"
+                                                mimeTypes="[image/gif,image/jpeg,image/png,image/tiff,image/svg+xml]"
+                                                multiple="{Boolean}false"
+                                                name="./file"
+                                                title="Upload Product Image"
+                                                uploadUrl="${suffix.path}"
+                                                useHTML5="{Boolean}true"/>
+                                            <producttitle
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="/libs/granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Product Title"
+                                                fieldLabel="Product Title"
+                                                name="./productTitle"/>
+                                            <productprice
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="/libs/granite/ui/components/coral/foundation/form/textfield"
+                                                fieldDescription="Product Price"
+                                                fieldLabel="Product Price"
+                                                name="./productPrice"/>
+                                            <isinofferperiod
+                                                granite:class="cq-dialog-checkbox-showhide"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                                fieldDescription="Is In Offer Period"
+                                                fieldLabel="Is In Offer Period"
+                                                name="./isInOfferPeriod"
+                                                text="Is In Offer Period?"
+                                                value="{Boolean}true">
+                                                <granite:data
+                                                    jcr:primaryType="nt:unstructured"
+                                                    cq-dialog-checkbox-showhide-target=".togglefield"/>
+                                            </isinofferperiod>
+                                            <offertoggle
+                                                granite:class="togglefield"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <offername
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                        fieldDescription="Offer Name"
+                                                        fieldLabel="Offer Name"
+                                                        name="./offerName"/>
+                                                    <offerdetails
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                        fieldDescription="Offer Details"
+                                                        fieldLabel="Offer Details"
+                                                        name="./offerDetails"/>
+                                                    <datetilloffer
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/form/datepicker"
+                                                        fieldDescription="Data till offer"
+                                                        fieldLabel="Data till offer"
+                                                        name="./dateTillOffer"/>
+                                                </items>
+                                            </offertoggle>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </properties>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>
