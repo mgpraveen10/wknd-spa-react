@@ -169,7 +169,12 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKND SPA Text"
                     sling:resourceType="wcm/core/components/policy/policy">
-                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <jcr:content
+                        cq:lastReplicated="{Date}2022-12-01T18:23:28.990+05:30"
+                        cq:lastReplicatedBy="admin"
+                        cq:lastReplicationAction="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus]"
+                        jcr:primaryType="nt:unstructured"/>
                     <rtePlugins jcr:primaryType="nt:unstructured">
                         <paraformat
                             jcr:primaryType="nt:unstructured"
@@ -460,7 +465,12 @@
                     jcr:title="WKND SPA React SPA Page Policy"
                     sling:resourceType="wcm/core/components/policy/policy"
                     clientlibs="[wknd-spa-react.react]">
-                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <jcr:content
+                        cq:lastReplicated="{Date}2022-12-01T18:23:28.990+05:30"
+                        cq:lastReplicatedBy="admin"
+                        cq:lastReplicationAction="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus]"
+                        jcr:primaryType="nt:unstructured"/>
                 </policy_spa>
             </page>
             <spa jcr:primaryType="nt:unstructured">
@@ -487,9 +497,15 @@
                     navigationRoot="/content/wknd-spa-react/us/en"
                     structureDepth="3"
                     structureStart="1">
-                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <jcr:content
+                        cq:lastReplicated="{Date}2022-12-01T18:23:28.990+05:30"
+                        cq:lastReplicatedBy="admin"
+                        cq:lastReplicationAction="Activate"
+                        jcr:mixinTypes="[cq:ReplicationStatus]"
+                        jcr:primaryType="nt:unstructured"/>
                 </policy_1590527695354>
             </header>
+            <navigation jcr:primaryType="nt:unstructured"/>
         </components>
     </wknd-spa-react>
     <wcm jcr:primaryType="nt:unstructured">
@@ -517,13 +533,18 @@
                         </cq:authoring>
                     </spa-default>
                     <policy_1590527271182
-                        jcr:lastModified="{Date}2020-05-26T14:12:31.302-07:00"
+                        jcr:lastModified="{Date}2022-12-19T17:03:40.166+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SPA Structure"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd-spa-react/components/image,/apps/wknd-spa-react/components/text,/apps/wknd-spa-react/components/header]">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd-spa-react/components/footer,/apps/AemProject/components/content/imgtd,/apps/AemProject/components/content/slider,/apps/wknd-spa-react/components/customized-components/Carouselcard,/apps/wknd-spa-react/components/customized-components/myslider,/apps/wknd-spa-react/components/customized-components/profiletitle,/apps/wknd-spa-react/components/customized-components/tdlinkname,/apps/wknd-spa-react/components/customized-components/titletextdescription,/apps/wknd-spa-react/components/customized-components/imagetitledescription,group:Wknd Proj,/apps/wknd-spa-react/components/card,/apps/wknd-spa-react/components/image,/apps/wknd-spa-react/components/text,/apps/wknd-spa-react/components/customized-components/productdetails,/apps/wknd-spa-react/components/header,/apps/wknd-spa-react/components/navigation,/apps/wknd-spa-react/components/customized-components/product]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2022-12-01T18:23:28.990+05:30"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_1590527271182>
                 </responsivegrid>
             </components>
